@@ -1,0 +1,111 @@
+programa
+{
+	//tela de cadastro/login ;  projeto lógica
+	funcao inicio()
+	{
+	inteiro opcao2       inteiro dataNasc    caracter vinculo  = 's'
+     inteiro CNPJ         real telefone       cadeia email2
+     cadeia razaoS        cadeia email        cadeia empresa
+     cadeia nome          cadeia mesNasc      cadeia letra 
+     cadeia sobreN        cadeia anoNasc      inteiro opcao  
+
+     
+     
+
+     
+     escreva("        ======================================="+"\n")
+     escreva("==========  SEJA BEM-VINDO AO TRANQUILAMENTE  =========="+"\n")
+     escreva("        ======================================="+"\n")
+
+
+    escreva("O que deseja fazer ? "+"\n")
+    escreva("[1] Digite 1 para realizar o cadastro : "+"\n")
+    escreva("[2] Digite 2 para realizar o login : "+"\n") 
+      leia(opcao)
+
+       escolha (opcao){
+       	caso 1 : 
+       	
+       escreva("\n"+"Agora escolha o meio de cadastro "+"\n")
+       escreva("[1] Digite 1 para cadastro como pessoa jurídica : "+"\n")
+       escreva("[2] Digite 2 para cadastro como pessoa física :  "+"\n")  
+         leia(opcao2)
+            se((opcao<=0) ou (opcao>2)){
+			   	escreva("Opção ínválida !!")
+	      
+			   	}
+	
+		escolha (opcao2){
+			caso 1 :
+			 escreva("====================="+"\n")
+			escreva("Qual sua razão social? ")
+			   leia(razaoS)			   
+			  escreva("==============="+"\n") 	
+			 escreva("Qual o seu CNPJ? ")			  
+			   leia(CNPJ)
+                 escreva("=================================================")
+			   escreva("\n"+"Ok,seu cadastro foi realizado com sucesso ! "+"\n")
+			  escreva("=================================================")
+			pare
+
+			caso 2 : 
+			
+			 escreva("================"+"\n")
+			 escreva("Qual o seu nome ? ")
+			   leia(nome)			   			    				   			  			  	
+			  escreva("=============="+"\n")		   
+			 escreva("E o sobrenome ? ")
+			   leia(sobreN)
+			  escreva("======================"+"\n")			   
+			 escreva("Sua data de nascimento : ")
+			   leia(dataNasc)
+			  escreva("======================"+"\n")			   
+			 escreva("Seu mês de nascimento : ")
+			   leia(mesNasc)	
+			  escreva("======================"+"\n")		   
+			 escreva("Seu ano de nascimento : ")
+			   leia(anoNasc)	
+			  escreva("============================="+"\n")		   
+			  escreva("Digite seu melhor telefone : ")
+			   leia(telefone)
+			  escreva("=========================="+"\n")			   
+			  escreva("Digite seu melhor e-mail : ")
+			   leia(email)
+			  escreva("======================"+"\n")
+			  escreva("Confirme seu e-mail : ")
+			    leia(email2)
+			     
+			     se(email != email2){
+			      escreva("======================================================"+"\n")	
+		     	escreva("Os emails não coincidem , por favor tente novamente ! "+"\n")
+		     	 escreva("======================================================")
+		     	retorne
+			     	}
+                  escreva("==================================="+"\n")			 
+			   escreva("Você é vinculado à alguma empresa ? ")
+			     leia(vinculo)
+			    se(vinculo == 's' ){
+			    	 escreva("======="+"\n")
+			    	escreva ("Qual ? ")
+			    	  leia(empresa)
+			    	   escreva("==========================================="+"\n")
+			        escreva("Ok,seu cadastro foi realizado com sucesso ! "+"\n")
+			         escreva("=========================================="+"\n")
+			    		
+			    	}senao se (vinculo == 'n'){
+			    		 escreva("=========================================="+"\n")
+			    		escreva("Ok,seu cadastro foi realizado com sucesso ! "+"\n")
+			    		 escreva("==========================================")
+			    		}
+			    
+			
+			 
+			 
+
+			
+			}
+          
+			   	
+	}
+  }
+}
