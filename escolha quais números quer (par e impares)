@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Qpares = 0         
+          inteiro Qimpares = 0
+         inteiro somaP = 0
+         inteiro somaI = 0
+          
+		para(inteiro i = 1 ; i <=50; i++){
+			se(i%2==0){			
+			somaP = somaP + 1
+			
+			} 
+          }    escreva("\n"+ "os números pares foram lidos . " )
+         
+	        para(inteiro i2 = 1 ; i2 <=50; i2++){
+			  se (i2%2==1){			
+			  somaI = somaI + 1	            
+           }	 
+        }    	escreva("\n"+"os números ímpares foram lidos ." + "\n" )
+        
+       inteiro opcao
+
+      	 escreva("\n"+"digite 1 para ímpar . "+"\n")
+      	 escreva("digite 2 para par ."+"\n")
+      	 leia(opcao)
+
+      	 escolha (opcao){
+      	 	
+      	 	caso 1 :
+      	 	escreva   ("\n"+"A quantidade de número de ímpares são "+ somaI + " no total"+"\n")
+      	 	pare
+
+      	 	caso 2 :
+      	 	   escreva  ("\n"+"A quantidade de número de pares são "+ somaP + " no total"+"\n")
+      	 	pare
+
+      	 	
+      
+      }
+     }
+    }
