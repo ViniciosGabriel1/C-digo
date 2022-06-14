@@ -1,0 +1,43 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero_recebido
+		inteiro divisor = 2
+		real numero_de_divisoes = 0
+		real numero_dividido
+
+		 escreva("Digite um número : ")
+		  leia(numero_recebido)
+		  
+            numero_dividido = (numero_recebido/divisor)	 
+            
+		enquanto (numero_dividido >= 1){
+	        escreva ("\n"+"A divisão é : " + numero_dividido )			                       			 	
+                 numero_dividido = (numero_dividido/divisor)
+           	                   
+                     numero_de_divisoes  +=1
+                    	escreva( " E o número de Divisões que foram necessárias foi : ")
+                  
+                    	 
+			se (numero_de_divisoes >=0){
+			 
+			 	
+			 	escreva(numero_de_divisoes)
+			    
+			 	} 
+			 		
+			 	
+			 		
+			 		
+                 
+			}
+	
+
+		
+             	
+             	
+		  
+	}
+}
