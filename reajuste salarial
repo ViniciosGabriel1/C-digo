@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		real  newsalario,salario,reajuste,percentual
+
+		escreva("Escreva seu salário atual : ")
+		  leia(salario)
+		  escreva("Informe o percentual : ")
+		    leia(percentual)
+
+		   reajuste = ((percentual/100)*salario)
+		    newsalario = (reajuste + salario)
+
+           escreva("Seu salário reajustado é : R$ "+ newsalario)
+
+               
+		    	
+ 
+            
+		    
+
+		    
+	}
+}
