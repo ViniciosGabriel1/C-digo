@@ -1,0 +1,42 @@
+programa
+{
+	inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+	 real raiz,porcentagem,metade,dobro,num
+      inteiro opcao
+	   escreva("Digite um número : ")
+	     leia(num)
+
+	     escreva ("Escolha o cálculo que você deseja realizar "+"\n")
+          escreva ("[1] Raiz quadrada do número "+"\n")
+          escreva ("[2] Metade do número "+"\n")
+          escreva ("[3] 10% do número "+"\n")
+          escreva ("[4] O dobro do número "+"\n")
+            leia (opcao)
+
+            escolha (opcao){
+       caso 1:
+        raiz = mat.raiz(num, 2.0)
+         escreva ("A raiz quadrada de ", raiz )
+         pare 
+         
+       caso 2:
+        metade = (num/2)
+          escreva ("A metade de ", num, "é: "+ metade)         
+         pare 
+         
+      caso 3:
+       porcentagem =  (num *10)/ 100
+         escreva ("10% de ", num , " é: " , porcentagem)
+       pare
+        
+      caso 4:
+       dobro = (num * 2)
+         escreva ("O dobro de ", num, " é : " , dobro)
+       pare
+     caso contrario:
+   escreva ("Opção inválida")
+            	}
+	}
+}
