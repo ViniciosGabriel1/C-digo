@@ -1,0 +1,18 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro soma = 0
+          inteiro i2 = 0
+		para(inteiro i = 1 ; i <=50; i++){
+			se(i>0){
+			soma = soma + i
+			}
+	  }     escreva("\n"+"A soma dos números positivos são  :" + soma)
+	  
+			  se (i2>0){
+	            
+      }  		 escreva("\n"+"A quantidade de números negativos são : "  + i2)	
+   }
+}
