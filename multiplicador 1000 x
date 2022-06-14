@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	   inteiro contador , limite , resultado
+
+	   contador = 0 
+	   limite = 1000
+
+	  faca{
+
+	  	resultado = 1000 * contador
+	  	escreva  (" 1000 X " +  contador  + " = " + resultado + "\n")
+	  	contador ++
+
+
+
+	  } enquanto  ( contador<= limite )
+	}
+}
