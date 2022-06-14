@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+      inteiro contador = 0 
+	 cadeia cesta[][]={{"pera","100"},{"maçã","200"},{"uva","300"},{"pinha","700"}}
+
+	  faca{
+	  	
+	  	escreva("produto : " + cesta[contador][0] + " quantidade : " + cesta[contador][1] + "\n")
+	  	contador ++
+	  	
+	  } enquanto(contador<=3)
+	 
+	}
+}
