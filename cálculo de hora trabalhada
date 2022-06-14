@@ -1,0 +1,28 @@
+programa
+{
+inclua biblioteca Matematica --> mat
+
+	
+	funcao inicio()
+	{
+	 inteiro N_funcionario
+       real qtd_hora_mes
+      inteiro qtd_por_hora
+      real salarioMes
+      
+      
+      
+		escreva("Qual o seu número ? ")
+		  leia(N_funcionario)
+		escreva("Quantas horas trabalha por mês ? ")
+		  leia(qtd_hora_mes)
+		escreva("Quanto você recebe por hora trabalhada ? " )
+		  leia(qtd_por_hora)
+
+		  salarioMes = qtd_hora_mes * qtd_por_hora
+		  
+		   escreva("\n "+"NÚMERO = " + N_funcionario+"\n")
+             escreva("\n "+"SALÁRIO = R $ " + salarioMes + "\n " )
+ 		  
+	}
+}
