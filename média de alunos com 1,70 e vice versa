@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	     real mediaTAltura
+	     inteiro mediaTIdade
+		real altura
+		inteiro qtdIdade = 0
+		inteiro somaIdade = 0
+          real somaAltura = 0
+		inteiro qtdAltura = 0
+		inteiro idade
+
+		
+        para ( inteiro i = 1;  i<=87 ; i++){
+        	escreva("Escreva sua idade : ")
+        	leia(idade)
+        	 escreva(" Escreva sua altura : ")
+        	 leia(altura)
+        se(altura<1.70){ 
+        	 somaIdade = somaIdade + idade
+        	  qtdIdade = qtdIdade + 1
+        	  }
+        	   se(idade>20){
+        	    somaAltura = somaAltura + altura
+        	      qtdAltura  = qtdAltura + 1
+        	     
+        	    }
+        	}
+        	
+        	mediaTAltura = somaAltura/qtdAltura
+        	  mediaTIdade = somaIdade/qtdIdade
+
+        	escreva("\n"+"A idade média dos alunos com menos de 1,70m de altura.: " + mediaTIdade + " anos" + "\n")
+        	escreva("\n"+"A altura média dos alunos com mais de 20 anos : " + mediaTAltura +" metros" + "\n")
+          
+        	   
+        	 
+        		
+        		
+		 
+	}
+}
