@@ -1,0 +1,62 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro codigop1
+		inteiro codigop2
+		inteiro qtd_produto1
+		inteiro qtd_produto2
+		real valor_a_pagar
+		real valor_uni_p1
+		real valor_uni_p2
+		real soma_preco
+		real soma_preco2
+
+
+
+            escreva("Qual o código do produto 1 ? ")
+              leia(codigop1)
+		  escreva("Qual o código do produto 2 ? ")
+              leia(codigop2)
+              escreva("Quantas unidades do produto 1 irá levar ? ")
+                leia(qtd_produto1)
+                se(qtd_produto1<0){
+                	escreva("Valor do produto 1 é Inválido ! ")
+                	
+                retorne 	}   
+               escreva("Quantas unidades do produto 2 irá levar ? ")
+                leia(qtd_produto2)
+                se(qtd_produto2<0){
+                	escreva("Valor do produto  2 é Inválido ! ")
+
+                retorne 	}    
+                	    escreva("Qual o valor que irá pagar pelo produto 1 ? ")
+                leia(valor_uni_p1)
+                se(valor_uni_p1<0){
+                	escreva("Valor Inválido ! Coloque um valor positivo por obséquio. ")
+              retorne  }
+	     	    
+                	  escreva("Qual o valor que irá pagar pelo produto 2 ? ")
+                         leia(valor_uni_p2)
+                  escreva("--------------------------------------------"+"\n")
+                  escreva("--------------------------------------------"+"\n")
+                  escreva("--------------------------------------------"+"\n")
+                se(valor_uni_p2<0){
+                	escreva("Valor Inválido ! Coloque um valor positivo por obséquio. "+"\n")
+                	
+               retorne }
+                 soma_preco = valor_uni_p1 * qtd_produto1
+                 soma_preco2 = valor_uni_p2 * qtd_produto2
+                 valor_a_pagar = soma_preco + soma_preco2
+                 
+               
+              escreva("O código do produto 1 é " + codigop1+"\n")
+              escreva("O código do produto 2 é " + codigop2+"\n")
+              escreva("Foram pegas do produto 1 uma quantidade de : " + qtd_produto1+"\n")
+              escreva("Foram pegas do produto 2 uma quantidade de : " + qtd_produto2+"\n")
+              escreva("O Valor a pagar é de : " + valor_a_pagar + "reais")
+              
+             
+	}        
+}         
