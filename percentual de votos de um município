@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real eleitores,validos,branco,nulo
+
+		escreva("digite o número de eleitores : ")
+		  leia(eleitores)
+		escreva("Digite o número de votos nulos : ")
+		  leia(nulo)
+		escreva("Digite o número de votos em branco : ") 
+		  leia(branco)
+	     escreva("Digite o número de votos válidos : ")
+            leia(validos)
+            
+	     branco =(branco/eleitores)*100
+
+	     nulo =(nulo/eleitores)*100
+
+	     validos =(validos/eleitores)*100
+
+
+	     escreva("O percentual  de votos brancos em relação  a população é  " + branco + " %" + "\n")
+		escreva("O percentual  de votos nulos em relação  a população é " + nulo + " %"+ "\n")
+		escreva("O percentual  de votos válidos em relação  a população é " + validos + " %"+ "\n")
+	}
+}
