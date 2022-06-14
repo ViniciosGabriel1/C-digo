@@ -1,0 +1,52 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		     
+        inteiro quantia=1,n
+        
+        real qtdCoelhos = 0, qtdSapos = 0, qtdTotal = 0,qtdRatos = 0
+        caracter tipoCobaia
+
+         escreva("Qual a quantia? ") 
+                leia(n)
+
+                
+        para(inteiro i = 0; i < n; i++) {
+            escreva("Qual animal usou no experimento?")
+              leia(tipoCobaia)
+
+           
+            escolha (tipoCobaia) {
+               
+                caso 'C':
+                  caso 'c':
+                    qtdCoelhos += quantia
+                    pare
+                    
+                caso 'R':
+                  caso 'r':
+                    qtdRatos += quantia
+                    pare
+                    
+                caso 'S':
+                  caso 's':
+                    qtdSapos += quantia
+                   pare                  
+            }
+            qtdTotal += quantia
+        }
+       
+       escreva("Total: " + qtdTotal + " cobaias")
+        escreva("Total de coelhos: " + qtdCoelhos+"\n")
+         escreva("Total de ratos: " + qtdRatos+"\n")
+         escreva("Total de sapos: " + qtdSapos+"\n")
+       
+        escreva("Percentual de coelhos: " + ( (  qtdCoelhos / qtdTotal) * 100) + " %"+"\n")
+         escreva("Percentual de ratos: " +( (  qtdRatos / qtdTotal) * 100) + " %"+"\n")
+          escreva("Percentual de sapos: " +( (  qtdSapos / qtdTotal) * 100) + " %"+"\n")
+       
+    }
+}
+	
