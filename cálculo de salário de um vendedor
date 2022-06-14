@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real salario_fixo,totalVendas,valor_por_carro,salarioFinal
+		inteiro carros_vendidos
+
+		escreva("Qual seu salário ? ")
+		  leia(salario_fixo)		
+		escreva("Qual o total de vendas ? ")
+		  leia(totalVendas)
+		 escreva("Qual a quantidade de carro vendidos pelo vendedor? ")
+		  leia(carros_vendidos)
+		  escreva("Qual o valor obtido por carro vendido? ")
+		    leia(valor_por_carro)
+
+		    salarioFinal = salario_fixo + (totalVendas * 0.05) + (valor_por_carro + carros_vendidos)
+
+               escreva("O salário final do vendedor é : " + salarioFinal)
+		    
+
+		  
+
+		  
+		  
+	}
+}
