@@ -1,0 +1,149 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		caracter letra
+
+		escreva("Digite uma letra : ")
+		  leia(letra)
+
+         escolha(letra){
+         	caso 'a':
+          	caso'A':
+         	  escreva("A letra A está na posição 1 do alfabeto")
+         	pare
+
+         	caso 'b':
+         		caso 'B':
+         	   escreva("A letra B está na posição 2 do alfabeto")
+         	pare
+
+         	caso 'c':
+         		caso 'C':
+              escreva("A letra C está na posição 3 do alfabeto")  
+          pare
+
+          caso 'd':
+          	caso 'D':
+              escreva("A letra D está na posição 4 do alfabeto")
+          pare
+
+           caso 'e':
+           	caso 'E':
+              escreva("A letra E está na posição 5 do alfabeto")  
+          pare
+
+           caso 'f':
+           	caso 'F':
+              escreva("A letra F está na posição 6 do alfabeto")  
+          pare
+
+         	 caso 'g':
+         	 	caso 'G':	
+              escreva("A letra G está na posição 7 do alfabeto")  
+          pare
+
+           caso 'h':
+           	caso 'H':
+              escreva("A letra H está na posição 8 do alfabeto")  
+          pare
+
+           caso 'i':
+           	caso 'I':
+              escreva("A letra I está na posição 9 do alfabeto")  
+          pare
+
+           caso 'j':
+           	caso 'J':
+              escreva("A letra J está na posição 10 do alfabeto")  
+          pare
+
+           caso 'k':
+           	caso 'K':
+              escreva("A letra K está na posição 11 do alfabeto")  
+          pare
+
+           caso 'l':
+           	caso 'L':
+              escreva("A letra L está na posição 12 do alfabeto")  
+          pare
+
+           caso 'm':
+           	caso 'M':
+             escreva("A letra M está na posição 13 do alfabeto")  
+          pare
+
+           caso 'n':
+           	caso 'N':
+              escreva("A letra N está na posição 14 do alfabeto")  
+          pare
+
+           caso 'o':
+           	caso 'O':
+              escreva("A letra O está na posição 15 do alfabeto")  
+          pare
+
+           caso 'p':
+           	caso 'P':
+              escreva("A letra P está na posição 16 do alfabeto")  
+          pare
+
+           caso 'q':
+           	caso 'Q':
+           	
+              escreva("A letra Q está na posição 17 do alfabeto")  
+          pare
+
+           caso 'r':
+           	caso 'R':
+              escreva("A letra R está na posição 18 do alfabeto")  
+          pare
+
+           caso 's':
+           	caso 'S':
+              escreva("A letra S está na posição 19 do alfabeto")  
+          pare
+
+           caso 't':
+           	caso 'T':
+              escreva("A letra T está na posição 20 do alfabeto")  
+          pare
+
+           caso 'u':
+           	caso 'U':
+              escreva("A letra U está na posição 21 do alfabeto")  
+          pare
+
+           caso 'v':
+           	caso 'V':
+              escreva("A letra V está na posição 22 do alfabeto")  
+          pare
+
+           caso 'w':
+           	caso 'W':
+              escreva("A letra W está na posição 23 do alfabeto")  
+          pare
+
+           caso 'x':
+           	caso 'X':
+             escreva("A letra X está na posição 24 do alfabeto")  
+          pare
+
+           caso 'y':
+           	caso 'Y':
+              escreva("A letra Y está na posição 25 do alfabeto")  
+          pare
+
+           caso 'z':
+           	caso 'Z':
+              escreva("A letra Z está na posição 26 do alfabeto")  
+          pare
+
+          caso contrario:
+              escreva("Letra inválida!")
+         	}
+         	
+		  
+	}
+}
