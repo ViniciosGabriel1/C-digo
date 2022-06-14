@@ -1,0 +1,26 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real chico = 1.50
+	real ze = 1.10    
+     inteiro ano = 0
+
+           enquanto(ze<chico){
+           	 
+             ze =ze+0.3
+              escreva( "\n"+"a altura de ze é "+ ze + "\n")
+             chico =chico+0.2
+                escreva("\n"+"a altura de chico é "+ chico+"\n")
+             ano++
+           	   escreva("\n"+"foram necessários :  "+ ano+" anos "+"\n")
+                
+          	  
+          	   
+           	  
+           	
+           	}
+		}	
+}
+	
