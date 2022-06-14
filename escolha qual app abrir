@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+      escreva("1-Abrir Netflix 2 - Abrir  Youtube 3 - Abrir Disney+ 4 - Sair")
+      inteiro menu = 0
+      escreva ("\n" + " Sua opção : ")
+      leia(menu)
+
+      se (menu == 1){
+      	escreva("Ok, abrindo netflix!")
+      }
+
+      se (menu == 2) {
+      	escreva("Ok, abrindo Youtube!")
+      }
+      se (menu == 3) {
+      	escreva("Ok, abrindo Disney+ !")
+      }
+      se (menu == 4) {
+      		escreva("Ok, Saindo!")
+      }
+	}
+}
