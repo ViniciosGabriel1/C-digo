@@ -1,0 +1,37 @@
+programa
+{
+	
+	funcao inicio()
+	{
+        cadeia nome
+        inteiro idade
+        
+		escreva("Qual seu nome? ")
+		leia(nome)
+
+		 escreva("Qual sua idade? ")
+		   leia(idade)
+
+	se (idade<=10){
+	    escreva("ok ," + nome +"\n" + "  sua categoria é infantil  !" + "\n" )
+	  
+	} senao {
+		se (idade<=15){
+	       escreva("ok , " + nome +"\n" + "Sua categoria é juvenil"+"\n")
+		}senao{
+			se (idade<=20){
+				 escreva("ok ," + nome +"\n"+"Sua categoria é junior !") 
+				}senao{
+					escreva("ok ," + nome +"\n" + "Sua categoria é profissional !")
+					}
+			}
+	 }
+	
+	         
+	
+          	
+	       
+   
+			
+	}
+}
