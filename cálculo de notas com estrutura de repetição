@@ -1,0 +1,24 @@
+programa{
+
+
+  
+  funcao inicio(){
+    real nota, media, soma_notas = 0 
+    inteiro contador
+
+    para(contador = 1; contador <= 4; contador += 1){
+      escreva("Digite as notas do bimestre : ")
+      leia(nota)
+      soma_notas = soma_notas + nota
+    }
+    media = soma_notas / 4
+    escreva("Média: ", media , "\n")
+	
+    se (media>=6){
+    	escreva("Parabuains, Aprovado!!")
+    	}senao{
+    		escreva(" F , Só próximo ano !") 
+    		
+    	}
+  }
+}
