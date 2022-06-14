@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real quantidade_maca,custo_compra
+
+		escreva(" Qual a quantidade de maçãs à comprar? ")
+		  leia(quantidade_maca)
+          
+		  se(quantidade_maca>=12){
+		  	custo_compra =( quantidade_maca*1)
+		  	 escreva("O valor é : R$ " + custo_compra)
+		  	}senao{
+		  		custo_compra = (quantidade_maca*1.30)
+		  		  escreva("O valor é :  R$ " + custo_compra)
+		  		}
+		  
+	}
+}
