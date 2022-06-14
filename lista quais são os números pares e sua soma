@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro soma = 0
+
+		para(inteiro i = 85 ; i <=907; i++){
+			se(i%2==0){
+				escreva("\n"+"Os  números pares são : " + i)
+				}
+				se (i%2==0){
+					soma = soma + i
+				 
+		   }
+		}escreva("\n"+"E a soma é " + soma)
+			 
+	}
+}
